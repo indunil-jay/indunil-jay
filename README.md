@@ -42,7 +42,6 @@
 
 ###
 
-<img align="right" height="150" src="https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif?cid=790b7611tz6b3hu9hfr9szdy6kcdv6ygpgsler0nvo5bqu3y&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
 
 ###
 
