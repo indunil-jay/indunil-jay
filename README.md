@@ -2,11 +2,6 @@
 
 ###
 
-<h4 align="left">A Passionate Self Though Developer From Sri Lanka</h4>
-
-###
-
-<p align="left">🤝 I’m looking for Internships.<br>🌱 I’m currently learning MERN stack.<br>📄 i'm currently reading  Effective TypeScript book.<br>👯 I’m looking to collaborate and grow better place.</p>
 
 ###
 
