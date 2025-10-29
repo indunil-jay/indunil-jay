@@ -61,7 +61,10 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=devto" height="60" alt="devto logo"  />
+   <img src="https://skillicons.dev/icons?i=cs" height="60" alt="csharp logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/dotnet/512BD4" height="60" alt="dot-net logo"  />
+  
 </div>
 
 ###
