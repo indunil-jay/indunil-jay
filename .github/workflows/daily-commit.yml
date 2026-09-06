@@ -1,0 +1,29 @@
+name: Keep Streak Active
+
+on:
+  schedule:
+    # Runs at 11:30 UTC every day (~5:00 PM IST/LK)
+    - cron: '30 11 * * *'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update Timestamp File
+        run: |
+          echo "Last active: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> streak_log.txt
+
+      - name: Commit and Push
+        run: |
+          git config user.name "indunil-jay"
+          git config user.email "indunil.jayz@gmail.com"
+          git add streak_log.txt
+          git commit -m "Auto streak update: $(date -u +'%Y-%m-%d')"
+          git push origin main
